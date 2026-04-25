@@ -1,0 +1,47 @@
+{
+  "test_type": "real_world_industrial",
+  "n_channels": 8,
+  "window_size": 200,
+  "sensor_names": [
+    "Temperature",
+    "Pressure",
+    "Vibration_X",
+    "Vibration_Y",
+    "Flow_Rate",
+    "Current",
+    "RPM",
+    "Torque"
+  ],
+  "n_normal": 15,
+  "n_faulty": 18,
+  "fault_types": [
+    "bearing_failure",
+    "pump_cavitation",
+    "overheating",
+    "sensor_drift",
+    "electrical_fault",
+    "mechanical_looseness"
+  ],
+  "training_epochs": 50,
+  "final_training_loss": 278581.703125,
+  "window_level": {
+    "AUROC": 0.8925925925925926,
+    "AP": 0.8784201990342342,
+    "F1": 0.9,
+    "Accuracy": 0.8787878787878788,
+    "MCC": 0.7745966692414834
+  },
+  "pointwise": {
+    "AUROC": 0.677706850766678,
+    "AP": 0.4832129476261219,
+    "F1": 0.48173860549351044
+  },
+  "per_fault_auroc": {
+    "bearing_failure": 0.9333333333333333,
+    "pump_cavitation": 0.8444444444444446,
+    "overheating": 0.9333333333333333,
+    "sensor_drift": 0.8222222222222223,
+    "electrical_fault": 0.8222222222222223,
+    "mechanical_looseness": 1.0
+  }
+}
