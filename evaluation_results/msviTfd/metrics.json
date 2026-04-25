@@ -1,0 +1,27 @@
+{
+  "model": "MSViTFD",
+  "total_params": 7461323,
+  "trainable_params": 258761,
+  "frozen_params": 7202562,
+  "n_samples": 160,
+  "n_normal": 80,
+  "n_anomaly": 80,
+  "AUROC": 0.63171875,
+  "Average_Precision": 0.6197796992885056,
+  "Optimal_Threshold": 0.0026954759015447452,
+  "Accuracy": 0.63125,
+  "F1_Score": 0.6380368098159509,
+  "F1_Normal": 0.6242038216560509,
+  "F1_Anomaly": 0.6380368098159509,
+  "MCC": 0.2626847652049044,
+  "Cohen_Kappa": 0.26249999999999996,
+  "Sensitivity_TPR": 0.65,
+  "Specificity_1-FPR": 0.6125,
+  "post_training": {
+    "AUROC": 0.96078125,
+    "AP": 0.9661885636129057,
+    "F1": 0.8888888888888888,
+    "Accuracy": 0.8875,
+    "MCC": 0.7752423010845508
+  }
+}
