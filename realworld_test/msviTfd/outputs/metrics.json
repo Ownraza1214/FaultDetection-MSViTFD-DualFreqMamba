@@ -1,0 +1,28 @@
+{
+  "test_type": "real_world",
+  "n_normal": 20,
+  "n_defective": 20,
+  "surface_types": [
+    "metal",
+    "fabric",
+    "wood",
+    "circuit",
+    "tile"
+  ],
+  "defect_types": [
+    "stain",
+    "dent",
+    "crack",
+    "missing_part",
+    "scratch",
+    "contamination"
+  ],
+  "AUROC": 0.8075,
+  "AP": 0.8577887824546307,
+  "F1": 0.7096774193548387,
+  "Accuracy": 0.775,
+  "MCC": 0.6158817620514396,
+  "optimal_threshold": 0.26181847272667946,
+  "training_epochs": 40,
+  "final_training_loss": 2.7074891726175943
+}
