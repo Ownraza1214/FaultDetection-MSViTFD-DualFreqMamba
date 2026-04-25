@@ -1,0 +1,23 @@
+MSViTFD — Classification Report
+==================================================
+
+PRE-TRAINING:
+              precision    recall  f1-score   support
+
+      Normal       0.64      0.61      0.62        80
+     Anomaly       0.63      0.65      0.64        80
+
+    accuracy                           0.63       160
+   macro avg       0.63      0.63      0.63       160
+weighted avg       0.63      0.63      0.63       160
+
+
+POST-TRAINING:
+              precision    recall  f1-score   support
+
+      Normal       0.90      0.88      0.89        80
+     Anomaly       0.88      0.90      0.89        80
+
+    accuracy                           0.89       160
+   macro avg       0.89      0.89      0.89       160
+weighted avg       0.89      0.89      0.89       160
