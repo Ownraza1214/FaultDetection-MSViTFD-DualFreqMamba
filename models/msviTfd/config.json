@@ -1,0 +1,48 @@
+{
+  "architectures": [
+    "MSViTFDModel"
+  ],
+  "decoder_depths": [
+    2,
+    3,
+    2
+  ],
+  "discriminator_hidden": 512,
+  "discriminator_weight": 0.5,
+  "dtype": "float32",
+  "dwconv_kernels": [
+    3,
+    5,
+    7
+  ],
+  "encoder_layer_indices": [
+    2,
+    3,
+    4
+  ],
+  "encoder_name": "efficientnet_b2",
+  "encoder_pretrained": false,
+  "fbft_hidden": 256,
+  "fbft_weight": 0.3,
+  "feature_dims": [
+    48,
+    120,
+    352
+  ],
+  "freeze_encoder": true,
+  "hidden_dim": 256,
+  "image_size": 256,
+  "in_channels": 3,
+  "mamba_d_conv": 4,
+  "mamba_d_state": 16,
+  "mamba_expand": 2,
+  "model_type": "msviTfd",
+  "n_scan_directions": 4,
+  "noise_std": 0.015,
+  "reconstruction_weight": 1.0,
+  "transformers_version": "5.6.2",
+  "truncated_loss_margin": 0.5,
+  "use_discriminator": true,
+  "use_fbft": true,
+  "use_hilbert_scan": true
+}
