@@ -1,0 +1,87 @@
+{
+  "SMD": {
+    "per_seed": {
+      "42": {
+        "f1": 0,
+        "precision": 0,
+        "recall": 0,
+        "threshold": 0.0,
+        "auroc": 0.4962450808275992
+      }
+    },
+    "f1_mean": 0.0,
+    "f1_std": 0.0,
+    "precision_mean": 0.0,
+    "recall_mean": 0.0,
+    "auroc_mean": 0.4962450808275992,
+    "auroc_std": 0.0
+  },
+  "MSL": {
+    "per_seed": {
+      "42": {
+        "f1": 0.05,
+        "precision": 0.7335766423357665,
+        "recall": 0.025882049961370075,
+        "threshold": 0.04932269023842228,
+        "auroc": 0.5025481629211834
+      }
+    },
+    "f1_mean": 0.05,
+    "f1_std": 0.0,
+    "precision_mean": 0.7335766423357665,
+    "recall_mean": 0.025882049961370075,
+    "auroc_mean": 0.5025481629211834,
+    "auroc_std": 0.0
+  },
+  "SMAP": {
+    "per_seed": {
+      "42": {
+        "f1": 0.003086980207009261,
+        "precision": 0.22727272727272727,
+        "recall": 0.0015540441714202136,
+        "threshold": 0.03019731271615608,
+        "auroc": 0.49405477868675
+      }
+    },
+    "f1_mean": 0.003086980207009261,
+    "f1_std": 0.0,
+    "precision_mean": 0.22727272727272727,
+    "recall_mean": 0.0015540441714202136,
+    "auroc_mean": 0.49405477868675,
+    "auroc_std": 0.0
+  },
+  "SWaT": {
+    "per_seed": {
+      "42": {
+        "f1": 0.06235215196130353,
+        "precision": 0.8720987654320987,
+        "recall": 0.03233188700316728,
+        "threshold": 0.14274291963627145,
+        "auroc": 0.5098194817834696
+      }
+    },
+    "f1_mean": 0.06235215196130353,
+    "f1_std": 0.0,
+    "precision_mean": 0.8720987654320987,
+    "recall_mean": 0.03233188700316728,
+    "auroc_mean": 0.5098194817834696,
+    "auroc_std": 0.0
+  },
+  "PSM": {
+    "per_seed": {
+      "42": {
+        "f1": 0,
+        "precision": 0,
+        "recall": 0,
+        "threshold": 0.0,
+        "auroc": NaN
+      }
+    },
+    "f1_mean": 0.0,
+    "f1_std": 0.0,
+    "precision_mean": 0.0,
+    "recall_mean": 0.0,
+    "auroc_mean": NaN,
+    "auroc_std": NaN
+  }
+}
