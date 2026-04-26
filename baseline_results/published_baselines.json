@@ -1,0 +1,84 @@
+{
+  "image_baselines": {
+    "PatchCore (CVPR 2022)": {
+      "image_auroc": 99.1,
+      "pixel_auroc": 98.1,
+      "source": "Roth et al., \"Towards Total Recall\", arXiv:2106.08265"
+    },
+    "SimpleNet (CVPR 2023)": {
+      "image_auroc": 99.6,
+      "pixel_auroc": 98.1,
+      "source": "Liu et al., \"SimpleNet\", arXiv:2303.15140"
+    },
+    "Reverse Distillation (CVPR 2022)": {
+      "image_auroc": 98.5,
+      "pixel_auroc": 97.8,
+      "source": "Deng & Li, \"Reverse Distillation\", arXiv:2201.10703"
+    },
+    "PaDiM (ICPR 2021)": {
+      "image_auroc": 95.3,
+      "pixel_auroc": 97.5,
+      "source": "Defard et al., \"PaDiM\", arXiv:2011.08785"
+    },
+    "DRAEM (ICCV 2021)": {
+      "image_auroc": 98.0,
+      "pixel_auroc": 97.3,
+      "source": "Zavrtanik et al., arXiv:2108.07610"
+    },
+    "EfficientAD (WACV 2024)": {
+      "image_auroc": 99.1,
+      "pixel_auroc": 98.8,
+      "source": "Batzner et al., arXiv:2303.14535"
+    }
+  },
+  "ts_baselines": {
+    "Anomaly Transformer (ICLR 2022)": {
+      "SMD": 92.33,
+      "MSL": 93.59,
+      "SMAP": 96.69,
+      "SWaT": 94.07,
+      "PSM": 97.89,
+      "source": "Xu et al., \"Anomaly Transformer\", arXiv:2110.02642"
+    },
+    "TimesNet (ICLR 2023)": {
+      "SMD": 85.81,
+      "MSL": 85.15,
+      "SMAP": 71.52,
+      "SWaT": 91.74,
+      "PSM": 97.47,
+      "source": "Wu et al., \"TimesNet\", arXiv:2210.02186"
+    },
+    "OmniAnomaly (KDD 2019)": {
+      "SMD": 85.22,
+      "MSL": 87.67,
+      "SMAP": 86.92,
+      "SWaT": 82.83,
+      "PSM": 80.83,
+      "source": "Su et al., KDD 2019"
+    },
+    "USAD (KDD 2020)": {
+      "SMD": 82.0,
+      "MSL": 86.0,
+      "SMAP": 87.0,
+      "SWaT": 81.7,
+      "PSM": 90.0,
+      "source": "Audibert et al., KDD 2020"
+    },
+    "THOC (NeurIPS 2021)": {
+      "SMD": 84.99,
+      "MSL": 89.69,
+      "SMAP": 90.68,
+      "SWaT": 85.13,
+      "PSM": 89.54,
+      "source": "Shen et al., NeurIPS 2021"
+    },
+    "LSTM-VAE": {
+      "SMD": 82.3,
+      "MSL": 82.62,
+      "SMAP": 78.1,
+      "SWaT": 82.2,
+      "PSM": 80.96,
+      "source": "Standard baseline"
+    }
+  }
+}
