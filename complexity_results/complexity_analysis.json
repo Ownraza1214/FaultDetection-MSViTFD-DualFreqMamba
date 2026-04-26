@@ -1,0 +1,79 @@
+{
+  "MSViTFD (Ours)": {
+    "type": "image",
+    "params_M": 14.277643,
+    "trainable_M": 7.075081,
+    "frozen_M": 7.202562,
+    "gflops": 11.821238784,
+    "fps": 0.41436650572987926,
+    "memory_mb": 54.71829605102539,
+    "inference_ms": 2413.322472188156,
+    "note": "EfficientNet-B2 + Mamba LSS Decoder"
+  },
+  "DualFreqMamba (Ours)": {
+    "type": "ts",
+    "params_M": 1.602407,
+    "trainable_M": 1.602407,
+    "gflops": 0.07471580665352115,
+    "fps": 30.19162513103344,
+    "memory_mb": 6.113193511962891,
+    "inference_ms": 33.12176789622754,
+    "note": "FFT+CWT+Temporal \u2192 Mamba Decoder"
+  },
+  "PatchCore": {
+    "params_M": 43.0,
+    "gflops": 3.8,
+    "fps": 5.6,
+    "type": "image",
+    "note": "WideResNet50 + memory bank, ~3.8 GB memory bank"
+  },
+  "PaDiM": {
+    "params_M": 23.5,
+    "gflops": 3.8,
+    "fps": 1.1,
+    "type": "image",
+    "note": "WideResNet50, Mahalanobis distance per patch"
+  },
+  "Reverse Distillation": {
+    "params_M": 51.0,
+    "gflops": 5.2,
+    "fps": 3.2,
+    "type": "image",
+    "note": "Teacher WR50 + Student decoder, 352 MB total"
+  },
+  "SimpleNet": {
+    "params_M": 25.0,
+    "gflops": 4.0,
+    "fps": 77.0,
+    "type": "image",
+    "note": "WideResNet50 + small discriminator, fastest"
+  },
+  "Anomaly Transformer": {
+    "params_M": 7.2,
+    "gflops": 0.8,
+    "fps": 156,
+    "type": "ts",
+    "note": "3-layer Transformer, d=512, 8 heads"
+  },
+  "TimesNet": {
+    "params_M": 1.5,
+    "gflops": 0.3,
+    "fps": 89,
+    "type": "ts",
+    "note": "TimesBlock + Inception, d_model auto-sized"
+  },
+  "USAD": {
+    "params_M": 0.5,
+    "gflops": 0.05,
+    "fps": 5000,
+    "type": "ts",
+    "note": "Two FC autoencoders, very lightweight"
+  },
+  "OmniAnomaly": {
+    "params_M": 3.0,
+    "gflops": 0.4,
+    "fps": 200,
+    "type": "ts",
+    "note": "GRU + Normalizing Flow, 500-d hidden"
+  }
+}
